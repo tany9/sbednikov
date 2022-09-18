@@ -1,0 +1,37 @@
+body {
+	background: linear-gradient(-45deg, #00bceb, #c897ff, #5518c5, #d206c4);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.q1             {background-color: #ffffff;}
+.q1             { width:8em }
+.q1:after       { content:'Honest'; }
+.q1:hover:after { content:'"I am honest to myself and to others and take responsibility for my actions."'; }
+
+.q2             {background-color: #ffffff;}
+.q2             { width:9em }
+.q2:after       { content:'Love of learning'; }
+.q2:hover:after { content:'"I am motivated to acquire new levels of knowledge, or deepen my existing knowledge or skills in a significant way."'; }
+#space {margin-left:9px;}
+
+.q3             {background-color:#ffffff;}
+.q3             { width:8em }
+.q3:after       { content:'Ambitious'; }
+.q3:hover:after { content:'"I am ambitious and driven.Always looking for an opportunity to do better and achieve greatness"'; }
+.q3             {margin-left:9px}
+
+
